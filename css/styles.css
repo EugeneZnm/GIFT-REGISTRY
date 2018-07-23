@@ -1,4 +1,24 @@
+/*Landing Image styling*/
+
 .landing {
     height: 500px;
     width: 1500px;
 }
+
+
+/*Styling of css grid*/
+
+.grid {
+    display: grid;
+}
+
+
+/*Brand tags box styling*/
+
+#box1 {}
+
+#box2 {}
+
+#box3 {}
+
+#box4 {}
