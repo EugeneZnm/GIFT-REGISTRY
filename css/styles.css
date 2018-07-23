@@ -80,3 +80,17 @@
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
+
+
+/*Styling of House warming card/image*/
+
+.housewarming {
+    width: 500px;
+    height: 500px;
+}
+
+.text4 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
