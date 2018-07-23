@@ -1,40 +1,66 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" href="css/login.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/login.js"></script>
     <meta charset="utf-8">
-    <title></title>
+    <title>Sign in and log in page</title>
   </head>
   <body>
     <div class="container">
-  <h2>Sign in</h2>
-  <form action="/action_page.php">
-  <div class="form-group" id="user">
-  <label for="name">UserName:</label><br>
-  <br>
-  <input type="name" class="form-control" id="name" placeholder="Enter User Name" name="username"></input>
+      <div id="signin-form">
+        <h2>Sign in</h2>
+        <form action="sign-in form" id="signin">
+        <div class="form-group" id="user">
+        <label for="name">UserName:</label><br>
+        <br>
+        <input type="name" class="form-control" id="name" placeholder="Enter User Name" name="username"></input>
+        </div>
+          <div class="form-group">
+            <label for="number">Phone Number:</label><br>
+            <br>
+            <input type="number" class="form-control" id="Pnumber" placeholder="Enter Phone Number" name="number"></div>
+
+          <div class="form-group">
+            <label for="email">Email:</label><br>
+            <br>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+          </div>
+
+          <div class="form-group">
+            <label for="pwd">Password:</label><br>
+            <br>
+            <input type="password" class="form-control" id="pass" placeholder="Enter password" name="pswd">
+          </div>
+
+          <div class="form-group form-check">
+            <label class="form-check-label">
+
+          <button type="Sign in?" class="btn btn-primary">Sign in?</button>
+
+        </div>
+        </form>
+        </div>
+
+        <p class="message">Not Registered? <a href="#">Register</a></p>
+
+
+
+        <div id="login-form">
+          <form id="login">
+            <label for="name">UserName:</label><br>
+            <br>
+            <input type="text" placeholder="User Name"></input>
+            <label for="pwd">Password:</label><br>
+            <br>
+            <input type="password" placeholder="password"></input>
+            <button type="login" class="btn btn-primary">login</button>
+          </form>
+          <p class="message">Registered?<a id="click" href="#">Login</a></p>
+
+      </div>
   </div>
-    <div class="form-group">
-      <label for="number">Phone Number:</label><br>
-      <br>
-      <input type="number" class="form-control" id="Pnumber" placeholder="Enter Phone Number" name="number"></div>
-    <div class="form-group">
-      <label for="email">Email:</label><br>
-      <br>
-      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-    </div>
-
-    <div class="form-group">
-      <label for="pwd">Password:</label><br>
-      <br>
-      <input type="password" class="form-control" id="pass" placeholder="Enter password" name="pswd">
-    </div>
-
-    <div class="form-group form-check">
-      <label class="form-check-label">
-
-    <button type="Sign in?" class="btn btn-primary">Sign in?</button>
-  </form>
-</div>
   </body>
 </html>
