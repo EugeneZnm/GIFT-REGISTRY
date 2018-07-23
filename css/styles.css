@@ -2,7 +2,7 @@
 
 .landing {
     height: 500px;
-    width: 1500px;
+    width: 1400px;
 }
 
 
@@ -15,10 +15,27 @@
 
 /*Brand tags box styling*/
 
-#box1 {}
+.box1 {
+    width: 200px;
+    height: 200px;
+}
 
-#box2 {}
+.box2 {
+    width: 200px;
+    height: 200px;
+}
 
-#box3 {}
+.box3 {
+    width: 200px;
+    height: 200px;
+}
 
-#box4 {}
+.box4 {
+    width: 200px;
+    height: 200px;
+}
+
+.tags {
+    position: relative;
+    left: 15%;
+}
