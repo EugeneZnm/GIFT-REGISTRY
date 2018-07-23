@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cart.css">
+    <script src=https://code.jquery.com/jquery-3.3.1.min.js></script>
+    <title>Checkout/Cart</title>
+  </head>
+  <body>
+    <div class="wells">
+    <h1>Checkout/Cart</h1>
+    <p>Checkout as a guest to view your order</p>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="container">
+          <form action="/action_page.php">
+            <h2>Billing Address</h2>
+          <form id=billingAddress>
+            <div class="form-group">
+              <label for="fname"><i class="fa fa-user"></i>Full Name</label><br>
+              <input type="text" id="fname" name="fullname" placeholder="Enter your name">
+            </div>
+            <br>
+            <div class="form-group">
+              <label for="email"><i class="fa fa-envelope"></i>Email</label><br>
+            <input type="text" id="email" name="email" placeholder="Enter your email">
+            </div>
+            <br>
+            <div class="form-group">
+              <label for="phone number"><i class="fa fa-envelope"></i>Phone Number</label><br>
+              <input type="text" id="phonenumber" name="phonenumber" placeholder="Enter your phone number">
+            </div>
+            <br>
+            <div class="form-group">
+              <label for="country"><i class="fa fa-envelope"></i>Country</label><br>
+              <input type="text" id="country" name="country" placeholder="Enter your country name">
+            </div>
+            <br>
+          </form>
+        </form>
+        </div>
+      </div>
+      <br>
+      <div class="col-md-6">
+        <div class="container-2">
+          <h2>Payment Options</h2>
+          <form id="form-group">
+            <p>Cards</p>
+            <label for="cname">Name on Card</label><br>
+            <input type="text" id="cname" name="cardname" placeholder="Your Name"><br>
+            <label for="ccnum">Credit card number</label><br>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="Card Number"><br>
+            <label for="expmonth">Exp Month</label><br>
+            <input type="text" id="expmonth" name="expmonth" placeholder="Month"><br>
+            <label for="exyear">Exp Year</label><br>
+            <input type="text" id=expyear name="exp year" placeholder="Enter Year"><br>
+            <label for="cvv">CVV</label><br>
+            <input type="text" id=cvv name="cvv" placeholder="Enter Number"><br>
+            <p>Lipa na M-pesa</p>
+
+            <button type="button" name="purchase" class="button">Purchase</button>
+         </div>
+       </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
