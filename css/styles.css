@@ -54,14 +54,28 @@
 }
 
 
-/*Styling Baby Image*/
+/*Styling Baby Registry Image*/
 
 .babyimage {
     width: 500px;
-    height: 500px;
+    height: 450px;
 }
 
 .text2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*Styling Wedding Registry Image*/
+
+.weddingimage {
+    width: 500px;
+    height: 450px;
+}
+
+.text3 {
     text-align: center;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
