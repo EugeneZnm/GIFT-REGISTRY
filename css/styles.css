@@ -1,8 +1,104 @@
 /*Landing Image styling*/
 
-.landing {
+
+/* .landing {
     height: 500px;
     width: 1400px;
+} */
+
+
+/*MENU*/
+
+header {
+    width: 1400px;
+    height: 500px;
+    background: url("../images/1.gif") no-repeat 50% 50%;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    position: fixed;
+    float: left;
+    margin: 16px 36px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    /* overflow: hidden; */
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: rgba(0, 0, 0, 0);
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 16px;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+
+/*Responsiveness*/
+
+@media(max-width: 580px) {
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+    }
+    nav ul {
+        max-height: 10px;
+        background: #000;
+    }
+    nav.black ul {
+        background: #000;
+    }
+    .showing {
+        max-height: 20em;
+    }
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px 0;
+        text-align: center;
+    }
+    .menu-icon {
+        display: block;
+    }
 }
 
 
@@ -38,19 +134,35 @@
 .tags {
     position: relative;
     left: 15%;
+    margin-top: 15px;
+}
+
+.text00 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 35px;
+    font-size: 30px;
 }
 
 .text1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 35px;
     font-size: 30px;
 }
 
 .registry-create {
     position: relative;
-    left: 15%;
+    left: 10%;
+    margin-top: 25px;
+}
+
+.registry-create1 {
+    position: relative;
+    left: 10%;
+    margin-top: 25px;
 }
 
 
