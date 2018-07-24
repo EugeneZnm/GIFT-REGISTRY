@@ -218,9 +218,19 @@ blink{
   bottom: 70%;
   color: green;
 }
-#button1{
+.button1{
   background-color: #99ff99;
   position: relative;
   height: 80%;
   top: 30%;
+}
+#myDIV {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #CCFF99;
+    margin-top: 20px;
+}
+#img{
+  margin-left: 20px;
 }
