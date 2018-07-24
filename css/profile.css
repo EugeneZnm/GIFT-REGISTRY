@@ -213,3 +213,14 @@ blink{
   50%{opacity:0;}
   100%{opacity:1;}
 }
+#p{
+  position: relative;
+  bottom: 70%;
+  color: green;
+}
+#button1{
+  background-color: #99ff99;
+  position: relative;
+  height: 80%;
+  top: 30%;
+}
