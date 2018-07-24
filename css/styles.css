@@ -6,14 +6,15 @@
     width: 1400px;
 } */
 
+@import"https://unpkg.com/ionicons@4.2.5/dist/css/ionicons.min.css";
 
 /*MENU*/
 
 header {
     width: 1400px;
     height: 500px;
-    background: url("../images/1.gif") no-repeat 50% 50%;
-    background-size: 1000px;
+    background: url("../images/120115_lak_hol-1.jpg") no-repeat 50% 50%;
+    background-size: 1400px;
     background-repeat: no-repeat;
 }
 
@@ -31,12 +32,13 @@ nav {
     width: 100%;
     background-color: #000;
     overflow: hidden;
+    z-index: 3;
 }
 
 nav ul {
     list-style: none;
     background: rgba(0, 0, 0, 0);
-    /* overflow: hidden; */
+    overflow: hidden;
     color: #fff;
     padding: 0;
     text-align: center;
@@ -141,36 +143,49 @@ nav ul li a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-weight: bold;
-    margin-top: 35px;
+    margin-top: 5px;
     font-size: 30px;
+    color: #fff;
+}
+
+.jumbotron {
+    background-color: bisque;
 }
 
 .text1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-weight: bold;
-    margin-top: 35px;
+    margin-top: 25px;
     font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffff;
 }
 
 .registry-create {
     position: relative;
-    left: 10%;
-    margin-top: 25px;
+    left: 5%;
+    margin-top: 15px;
 }
 
 .registry-create1 {
     position: relative;
-    left: 10%;
+    left: 5%;
     margin-top: 25px;
+}
+
+.card {
+    width: 450px;
+    background: #fff;
 }
 
 
 /*Styling Baby Registry Image*/
 
 .babyimage {
-    width: 500px;
+    width: 400px;
     height: 450px;
+    /* padding-right: 30px; */
 }
 
 .text2 {
@@ -183,7 +198,7 @@ nav ul li a {
 /*Styling Wedding Registry Image*/
 
 .weddingimage {
-    width: 500px;
+    width: 400px;
     height: 450px;
 }
 
@@ -197,8 +212,8 @@ nav ul li a {
 /*Styling of House warming card/image*/
 
 .housewarming {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
 }
 
 .text4 {
@@ -211,8 +226,8 @@ nav ul li a {
 /*Styling custom  registry section*/
 
 .customregistry {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
 }
 
 .text5 {
@@ -222,7 +237,29 @@ nav ul li a {
 }
 
 
+/*Positioning Registry Buttons*/
+
+.btn {
+    position: relative;
+    left: 30%;
+}
+
+.btn-info {
+    position: relative;
+    left: 20%;
+}
+
+.btn-success {
+    position: relative;
+    left: 25%;
+}
+
+
 /*FOOTER STYLING*/
+
+.footer-main {
+    margin-top: 30px;
+}
 
 a {
     text-decoration: none;
@@ -256,7 +293,7 @@ a {
     height: 50px;
     margin: 0px 10px;
     border-radius: 100%;
-    background: #32CD32;
+    background: #CC0475;
 }
 
 .footer-social-icons ul li a {
@@ -365,7 +402,7 @@ a {
     width: 100%;
     height: 50px;
     margin: auto;
-    background: #32CD32;
+    background: #CC0475;
     padding: 10px;
     margin-top: 25px;
 }
