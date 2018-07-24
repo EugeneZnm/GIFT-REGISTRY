@@ -118,6 +118,10 @@ nav ul li a {
     height: 200px;
 }
 
+.card .box11 {
+    width: 200px;
+}
+
 .box2 {
     width: 200px;
     height: 200px;
@@ -140,12 +144,12 @@ nav ul li a {
 }
 
 .text00 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Dancing Script', cursive;
     text-align: center;
     font-weight: bold;
     margin-top: 5px;
     font-size: 30px;
-    color: #fff;
+    color: #000;
 }
 
 .jumbotron {
@@ -153,12 +157,11 @@ nav ul li a {
 }
 
 .text1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-weight: bold;
     margin-top: 25px;
     font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Dancing Script', cursive;
     color: #ffff;
 }
 
