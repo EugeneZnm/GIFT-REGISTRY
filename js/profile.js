@@ -43,4 +43,37 @@ $(document).ready(function(){
       $("btn4").val('show');
     }
   });
+  $("#img3").hide();
+  $("#btn5").click(function(){
+    if($("#img3").is(":hidden")==true){
+      $("#img3").show();
+      $("#btn5").val('submitt');
+    }
+    else{
+      $("#img3").hide();
+      $("btn5").val('show');
+    }
+  });
+  $("#img4").hide();
+  $("#btn6").click(function(){
+    if($("#img4").is(":hidden")==true){
+      $("#img4").show();
+      $("#btn6").val('submitt');
+    }
+    else{
+      $("#img4").hide();
+      $("btn6").val('show');
+    }
+  });
+  $("#img5").hide();
+  $("#btn7").click(function(){
+    if($("#img5").is(":hidden")==true){
+      $("#img5").show();
+      $("#btn7").val('submitt');
+    }
+    else{
+      $("#img5").hide();
+      $("btn7").val('show');
+    }
+  });
 });
