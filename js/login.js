@@ -3,3 +3,9 @@ $(document).ready(function(){
     $("#login").show()
   });
 });
+
+$(document).ready(function(){
+  $("#signin-form").click(function(){
+    $("#signin").show()
+  });
+});
