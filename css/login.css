@@ -1,0 +1,47 @@
+body{
+  background-image: url("http://www.hdwallpapersz.in/wp-content/uploads/2015/07/Gift-a-Red-Heart-Images-to-lover-hd-pics-for-mobile-whatsapp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#all{
+  padding-top: 100px;
+}
+.container{
+  background-color: black;
+  padding: 20px;
+  width:300px;
+  margin: 0 auto 100px;
+  opacity: 0.5;
+  box-shadow: 5px 5px 8px 10px #E0E0E0;
+}
+#Pnumber{
+  padding: 5px;
+}
+#email{
+  padding: 5px;
+}
+#pass{
+  padding: 5px;
+}
+#login{
+  display: none;
+}
+#signin{
+  display: none;
+}
+#me{
+  color: white;
+  font-size: 20px;
+}
+#pas{
+  color: white;
+  font-size: 20px;
+}
+#em{
+  color: white;
+  font-size: 20px;
+}
+#you{
+  color: white;
+  font-size: 20px;
+}
