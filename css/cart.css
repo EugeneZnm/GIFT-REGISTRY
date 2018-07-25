@@ -1,10 +1,20 @@
 body{
-  background-color: white;
+background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSSTcEtneXZV4vg0tsSsqsmpDpv7aRDFPaCDVBZlMDbXmMSxF0");
+background-repeat: no-repeat;
+background-size: cover;
 }
-.card-body{
-  background-color:#ff99ff;
+.card{
+  opacity: 0.8;
+  box-sizing: content-box;
+  width: 600px;
+  height: 600px;
+  padding: 30px;
+  border: 10px solid blue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
 }
-
 .container-2{
 float:left;
 padding-left: 50px;
@@ -29,12 +39,4 @@ p,h2{
   right: 120px;
   cursor: pointer;
   font-size: 18px;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 800px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
 }
