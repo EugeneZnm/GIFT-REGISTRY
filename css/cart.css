@@ -1,22 +1,40 @@
+body{
+  background-color: white;
+}
+.card-body{
+  background-color:#ff99ff;
+}
+
 .container-2{
 float:left;
 padding-left: 50px;
+font-family: cursive;
 }
-h1,p{
+.container-1{
+  font-family: cursive;
+}
+h1{
   text-align: center;
+  font-family: cursive;
+  font-size: 50px;
 }
-.button{
-  background-color: #ffcc00;
-  color: white;
-  padding: 12px;
-  margin: 10px 0;
-  border: none;
-  width: 100%;
-  border-radius: 3px;
+p,h2{
+  font-size: 20px;
+  font-family: cursive;
+}
+#btn{
+  text-align: center;
+  float:left;
+  position: relative;
+  right: 120px;
   cursor: pointer;
-  font-size: 17px;
+  font-size: 18px;
 }
-.button:hover {
-  background-color: #ffcc00
-  
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
 }
