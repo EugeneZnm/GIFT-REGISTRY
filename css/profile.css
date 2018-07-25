@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: #FFCC;
+  background-color: ;
   background-size: cover;
 }
 #header{
@@ -44,7 +44,7 @@ input[type=text], select {
 
 input[type=submit] {
     width: 50%;
-    background-color: #4CAF50;
+    background-color: #330019;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -54,19 +54,19 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #330019;
 }
 
 div {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #330019;
     padding: 20px;
 }
 #container1{
-  background-color: #99FFCC;
+  background-color: #FF007F;
 }
 #row1{
-  background-color: #CCFFFF;
+  background-color: #;
 }
 #box3{
   padding-top: 180px;
@@ -99,7 +99,7 @@ div {
 #container2{
   width: 95%;
   overflow: hidden;
-    background: #99FFCC;
+    background: #FF007F;
   margin: 20px auto;
   padding: 20px;
 }
@@ -112,7 +112,7 @@ div {
   float: left;
   width: 20%;
   height: 300px;
-  background: #CCFFCC;
+  background: #FF99CC;
   margin: 40px 40px 0px 40px;
   box-sizing: border-box;
   border: 2px solid white;
@@ -216,10 +216,10 @@ blink{
 #p{
   position: relative;
   bottom: 70%;
-  color: green;
+  color: #FF007F;
 }
 .button1{
-  background-color: #99ff99;
+  background-color: #;
   position: relative;
   height: 80%;
   top: 30%;
