@@ -27,12 +27,95 @@ header {
     font-size: 24px;
 }
 
+
+/*Search tool*/
+
+
+/* .container .search {
+    position: absolute;
+    left: 50px;
+    top: 45%;
+    transform: translate(-50%);
+}
+
+.search-box input {
+    border: none;
+    background: none;
+    z-index: 1;
+    width: 25px;
+    height: 25px;
+    transition: all .25s ease in .25s;
+    color: transparent;
+    font-size: 1em;
+    line-height: 25px;
+}
+
+.search-box input:hover {
+    cursor: pointer;
+}
+
+.search-box input:hover:focus {
+    cursor: text;
+}
+
+.search-box input:hover+span {
+    background: rgba(255, 255, 255, .2);
+}
+
+.search-box input:focus {
+    width: 200px;
+    padding: 0 10px;
+    outline: none;
+    color: black;
+    background: none;
+    color: #fff;
+}
+
+.search-box input:focus+span {
+    width: 200px;
+}
+
+.search-box input:focus+span::before {
+    width: 2px;
+    opacity: 0;
+    transition: all .25s ease-in;
+}
+
+.search-box input+span {
+    z-index: -1;
+    position: absolute;
+    border: 2px solid green;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    transition: all .25s ease-in .25s;
+    border-radius: 25px;
+    left: 0;
+}
+
+.search-box input+span::before {
+    transition: all .25s ease-in .25s;
+    transform-origin: left top;
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 5px;
+    border-radius: 5px;
+    background: #fff;
+    transform: rotate(45deg) translate(26px -2px)
+}
+ */
+
+
+/*Nav bar*/
+
 nav {
     position: fixed;
     width: 100%;
     background-color: #000;
     overflow: hidden;
     z-index: 3;
+    top: 0%;
 }
 
 nav ul {
@@ -149,7 +232,7 @@ nav ul li a {
     font-weight: bold;
     margin-top: 5px;
     font-size: 30px;
-    color: #000;
+    color: teal;
 }
 
 .jumbotron {
@@ -162,7 +245,7 @@ nav ul li a {
     margin-top: 25px;
     font-size: 30px;
     font-family: 'Dancing Script', cursive;
-    color: #ffff;
+    color: teal;
 }
 
 .registry-create {
@@ -296,7 +379,7 @@ a {
     height: 50px;
     margin: 0px 10px;
     border-radius: 100%;
-    background: #CC0475;
+    background: #FF007F;
 }
 
 .footer-social-icons ul li a {
@@ -405,7 +488,7 @@ a {
     width: 100%;
     height: 50px;
     margin: auto;
-    background: #CC0475;
+    background: #FF007F;
     padding: 10px;
     margin-top: 25px;
 }
