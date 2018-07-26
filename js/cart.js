@@ -1,13 +1,15 @@
+
 $(document).ready(function(){
  $("p").hide();
- $("#btn").click(function(){
+ $("#btn").click(function(event){
+   event.preventDefault();
      if ($("p").is(":hidden")==true){
          $("p").show();
-         $("#btn").val('Purchase');
+         $("#btn").val("Purchase");
      }
      else{
        $("p").hide();
-       $("#btn").val('show');
-     }
+       $("#btn").val("Purchase");
+     };
  });
 });
