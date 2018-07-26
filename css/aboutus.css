@@ -1,0 +1,25 @@
+img{
+  height: 500px;
+  width: 100%;
+  padding-bottom: 0;
+  margin: 0;
+}
+.About{
+  text-align: center;
+  background-color: #E0E0E0;
+  padding-top: 20px;
+  color: black;
+  padding-bottom: 20px;
+  opacity:0.3;
+  font-size: 30px;
+}
+#pic{
+  height: 200px;
+  width: 200px;
+  float: right;
+}
+.history{
+  background-color: lightpink;
+  padding: 30px;
+  font-size: 30px;
+}
