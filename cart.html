@@ -14,7 +14,7 @@
       <h1>Checkout/Cart</h1>
     <p>Checkout as a guest to view your order</p>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-4">
         <div class="container-1">
           <form action="/action_page.php">
             <h2>Billing Address</h2>
@@ -44,38 +44,45 @@
         </div>
       </div>
       <br>
-      <div class="col-md-6">
+      <div class="col-md-4">
         <div class="container-2">
           <h2>Payment Options</h2>
           <form id="form-group">
             <p>Cards</p>
+            <br>
             <label for="cname">Name on Card</label><br>
             <input type="text" id="cname" name="cardname" placeholder="Your Name"><br>
             <label for="ccnum">Credit card number</label><br>
             <input type="text" id="ccnum" name="cardnumber" placeholder="Card Number"><br>
+            <br>
             <label for="expmonth">Exp Month</label><br>
             <input type="text" id="expmonth" name="expmonth" placeholder="Month"><br>
             <label for="exyear">Exp Year</label><br>
             <input type="text" id=expyear name="exp year" placeholder="Enter Year"><br>
             <label for="cvv">CVV</label><br>
             <input type="text" id=cvv name="cvv" placeholder="Enter Number"><br>
-
-            <label for="lipa na mpesa">Lipa na Mpesa</label><br><select id="lipanampesa" name="lipa na mpesa">
-              <option value="buy goods and services">Enter till no.</option>
-              <option value="paybill">Enter business no.</option>
-            </select>
             <br>
-            <!-- <input type="purchase" value="purchase" id="btn">Purchase</input>
-            <p>Purchase has been made successfully!!</p> -->
+            </div>
+          </div>
+            <div class="col-md-4">
+              <div class="container-3">
+                <h2>Lipa na Mpesa</h2>
+                <ol>Access the SIM Toolkit in your phone</ol>
+                <ol>Go to M-PESA</ol>
+                <ol>Select Lipa na M-PESA</ol>
+                <ol>Select Buy Goods and Services</ol>
+                <ol>Click OK</ol>
+
+              </div>
+            </div>
+            <br>
             <input type="submit" value="Purchase" id="btn"></input>
             <p>Purchase has been made successfully!!</p>
-         </div>
-       </form>
-       <!-- <input type="submit" value="submitt" id="btn"></input>
-       <p>Purchase has been made successfully!!</p> -->
-      </div>
+            </form>
+
+
+
      </div>
-    </div>
   </div>
 </body>
 </html>
