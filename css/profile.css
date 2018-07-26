@@ -43,7 +43,7 @@ input[type=text], select {
 }
 
 input[type=submit] {
-    width: 50%;
+    width: 100%;
     background-color: #330019;
     color: white;
     padding: 14px 20px;
@@ -51,6 +51,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+
 }
 
 input[type=submit]:hover {
@@ -231,9 +232,18 @@ blink{
     background-color: #CCFF99;
     margin-top: 20px;
 }
-#img{
-  margin-left: 20px;
+/* #img{
+  margin-left: 20px; */
 }
 .title{
   background-color: blue;
+}
+/* #cont2{
+  background-image: url("https://digital.com/wp-content/uploads/recommended-tick-icon.png");
+  background-color: blue;
+  display; none;
+} */
+#img1{
+  position: relative;
+  top: 30%;
 }
