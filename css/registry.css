@@ -1,0 +1,313 @@
+
+.container {
+    width: 280px;
+    height: 500px;
+    margin: 30px auto;
+    background-color: white
+}
+.card {
+    border-radius: 25px;
+    box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
+}
+.card-head {
+    position: relative;
+    height: 252px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/41AJYbHolNL._SY355_.jpg");
+    background-repeat: no-repeat;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fa782e', endColorstr='#c82930', GradientType=1);
+    border-radius: 25px 25px 0 0;
+
+}
+.card-logo {
+    width: 55px;
+    margin: 20px;
+}
+.product-img {
+    position: absolute;
+    left: 10%;
+}
+.product-detail {
+    padding: 0 20px;
+    font-size: 11px;
+    margin-top: 10px;
+}
+.product-detail h2 {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.back-text {
+    display: inline-block;
+    font-size: 125px;
+    font-weight: 900;
+    margin-left: -7px;
+    margin-top: -12px;
+    opacity: 0.1;
+    background-color: red;
+}
+.card-body {
+    height: 255px;
+    background: #fff;
+    border-radius: 0 0 25px 25px;
+}
+.product-title {
+    padding: 20px 20px 5px 20px;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.product-title b {
+    font-weight: 900;
+    letter-spacing: 0px;
+}
+.badge {
+    position: relative;
+    font-size: 10px;
+    font-weight: 300;
+    color: #fff;
+    background: #11e95b;
+    padding: 2px 5px;
+    border-radius: 4px;
+    top: -2px;
+    margin-left: 5px;
+}
+.product-caption {
+    display: block;
+    padding: 0 20px;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.product-rating {
+    padding: 0 20px;
+    font-size: 11px;
+}
+.product-rating i.grey {
+    color: #acacab;
+}
+.product-size h4 {
+    font-size: 11px;
+    padding: 0 21px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.ul-size {
+    margin-left: 15px;
+}
+.ul-size li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+.ul-size li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 11px;
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 23px;
+    color: #000;
+}
+.ul-size li a.active {
+    background: #f35e3d;
+    color: #fff;
+}
+.product-size:before,
+.product-size:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.product-color h4 {
+    font-size: 11px;
+    padding: 0 21px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.ul-color {
+    margin-left: 27px;
+}
+.ul-color li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+.ul-color li a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+}
+.ul-color li a.orange {
+    background: #f35e3d;
+}
+.ul-color li a.green {
+    background: #11e95b;
+}
+.ul-color li a.yellow {
+    background: #ffd414;
+}
+.ul-color li a.active:after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    border: 1px solid #f35e3d;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+.product-price {
+    position: absolute;
+    background: #11e95b;
+    padding: 7px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 200;
+    color: #fff;
+    border-radius: 7px;
+    margin-top: -13px;
+    margin-left: -5px;
+    box-shadow: -10px 20px 15px -10px rgba(17, 233, 91, 0.3);
+}
+.product-price b {
+    margin-left: 5px;
+}
+.card-head2 {
+    position: relative;
+    height: 252px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQllIlGO-QDDxIljPLEAnTdyyTR4QbJMDxrN4GIWtOga783jfcndg");
+    background-repeat: no-repeat;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fa782e', endColorstr='#c82930', GradientType=1);
+    border-radius: 25px 25px 0 0;
+
+
+}
+.card-head3 {
+    position: relative;
+    height: 252px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8iomP5b7i7_UiQS4_vPejf4hBO1ZFJME4gNnhEaUbV704KLBsnw");
+    background-repeat: no-repeat;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fa782e', endColorstr='#c82930', GradientType=1);
+    border-radius: 25px 25px 0 0;
+
+}
+
+.well{
+  position: relative;
+  width: 30%;
+  left: 25%;
+
+}
+.box{
+  background-color: red;
+}
+.container-fluid{
+  background-color: pink;
+}
+blink, .blink {
+         animation: blinker 1s linear infinite;
+     }
+
+    @keyframes blinker {
+         50% { opacity: 0; }
+    }
+    body {
+        background: #eee;
+    }
+    .team-area {
+        margin-top: 34;
+    }
+    .single-member {
+        box-shadow: rgb(58, 78, 95, 0.2) 0 10px 16px, rgba(58, 78, 95, 0.05) 0 -5px 16px;
+    }
+    .single-member .team-heading {
+        background: url("../images/amazon-sweepstakes-promo.jpg");
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 200px;
+    }
+    .single-member .member-img {
+        position: relative;
+        top: 150px;
+        margin-bottom: 150px;
+    }
+    .single-member .member-img img {
+        width: 100px;
+        height: 100px;
+        max-width: 100px;
+        max-height: 100px;
+        border-radius: 50%;
+        border: 5px solid rgba(255, 255, 255, 0.5);
+    }
+    .member-data {
+        padding: 5%;
+        margin-top: 10px;
+        border: 5px solid rgba(255, 255, 255, 0.5);
+    }
+    .member-info h2 {
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .member-info h3 {
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    .member-info p {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 10%
+    }
+    .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+#lisa {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.links {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+#lisa:hover, a:hover {
+  opacity: 0.7;
+}
+#button5{
+  color: black;
+  background-color: green;
+  
+}
