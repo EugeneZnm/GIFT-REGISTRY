@@ -1,99 +1,105 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"> -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="css/profile.css" rel="stylesheet" type="text/css">
-  <script   src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
-  <script src="js/profile.js"></script>
+
+<head>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/profile.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/profile.js"></script>
     <meta charset="utf-8">
     <title></title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="container" id="container1">
-<div class="box" id="box1">
-  <h2 id="head1"><strong>Hey! thanks for loging in<br>Kindly edit your profile<br>to continue creating a registry</strong></h2>
-  <img src="http://agritex.co.in/wp-content/uploads/2018/03/anonymous.png" class="box-img" >
-    <form>
-      <label for="person1">Name:</label>
-       <input id="person1" class="form-control" type="text">
-       <br>
-       <br>
-      <label for="person1">Event:</label>
-     <input id="person1" class="form-control" type="text">
-      <br>
-       <br>
-      <label for="country">Country:</label>
-      <select id="country" name="country">
+        <div class="box" id="box1">
+            <h2 id="head1"><strong>Hey! thanks for loging in<br>Kindly edit your profile<br>to continue creating a registry</strong></h2>
+            <img src="http://agritex.co.in/wp-content/uploads/2018/03/anonymous.png" class="box-img">
+            <form>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <br>
+                <br>
+                <label for="lname">Event</label>
+                <input type="text" id="lname" name="lastname" placeholder="Event.....">
+                <br>
+                <br>
+                <label for="country">Country:</label>
+                <select id="country" name="country">
         <option value="australia">Kenya</option>
         <option value="canada">Tanzania</option>
         <option value="usa">Uganda</option>
       </select>
-      <br>
-       <br>
-    </form>
-    <button> <a href="registry.html"> <input type="submit" value="submitt" id="btn"></a></input></button>
-    <p>congratulations you have sucessfully created a profile!!move to the next step</p>
-</div>
-<br>
-<br>
-<!--
-<div class="row">
-  <div class="container" id="container2">
-    <h3>If your ready to create your registry kindly click the button bellow to browse through our products</h3>
-    <button class="button" style="vertical-align:middle" ><span id="p">Products Page</span></button>
-    <ul>
-
-      <li>
-        <div class="title"><strong>Item Selected</strong></div>
-        <h3>
-          <button class="button" style="vertical-align:middle"class="button1" id="btn2"><blink><span id="p">Purchase </span></blink></button>
-          <centre>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ-QpkUE39QRqUbDg4g7qL66YjYscVpD6khMsaOhRciXvJHPJE" width=205px; height="172px">
-        </centre>
-          </h3>
-            </li>
-
-      <li>
-        <div class="title">
-          <strong>Item Selected</strong>
+                <br>
+                <br>
+                <!--
+     <input type="submit" value="submitt" id="btn"></input>
+     <p>congratulations you have sucessfully created a profile!!move to the next step</p> -->
+            </form>
+            <input type="submit" value="submitt" id="btn"></input>
+            <p>congratulations you have sucessfully created a profile!!move to the next step</p>
         </div>
-        <h3><button class="button" style="vertical-align:middle"class="button1" id="btn3"><blink><span id="p">Purchase </span></blink></button><centre>
-          <img src="https://cdn.takas.lk/media/catalog/product/cache/1/small_image/150x/9df78eab33525d08d6e5fb8d27136e95/b/e/bek_b-wmy71483lmb2-01_zoom_1.jpg" width=205px; height="172px">
+        <br>
+        <br>
 
-            <img src="https://pbs.twimg.com/profile_images/2167309940/Checkmark_L.gif" id="img1"><centre>
-            <h3>
-            </li>
-      <li>
-        <div class="title"><strong>Item Selected</strong></div>
-        <h3><button class="button" style="vertical-align:middle"class="button1" id="btn4"><blink><span id="p">Purchase </span></blink></button><centre>
-          <img src="http://www.urslay.com/wp-content/uploads/2018/02/59213-3145d975f8cd59e067a313acdb06cf8b-150x150.jpg" width=205px; height="172px">
-          <img src="https://digital.com/wp-content/uploads/recommended-tick-icon.png" id="img2"><centre>
-            <h3>
-            </li>
-      <li>
-        <div class="title"><strong>Item Selected</strong></div>
-        <h3><button class="button" style="vertical-align:middle"class="button1" id="btn5"><blink><span id="p">Purchase </span></blink></button><centre>
-          <img src="https://www.movieempire.info/wp-content/uploads/2018/04/411nLa35UrL-150x150.jpg" width=205px; height="172px">
-          <img src="https://digital.com/wp-content/uploads/recommended-tick-icon.png" id="img3"><centre>
-            <h3>
-             </li>
-      <li>
-        <div class="title"><strong>Item Selected</strong></div>
-        <h3><button class="button" style="vertical-align:middle"class="button1" id="btn6"><blink><span id="p">Purchase </span></blink></button><centre>
-          <img src="https://beautyshophq.com/wp-content/uploads/2016/02/The-SHANY-Beauty-Cliche-Makeup-Palette-All-in-One-Makeup-Set-with-Eyeshadows-Face-Powders-and-Blushes-0-1-150x150.jpg" width=205px; height="172px">
-          <img src="https://digital.com/wp-content/uploads/recommended-tick-icon.png" id="img4"><centre>
-            <h3>
-             </li>
-      <li>
-        <div class="title"><strong>Item Selected</strong></div>
-        <h3><button class="button" style="vertical-align:middle"class="button1" id="btn7"><blink><span id="p">Purchase </span></blink></button><centre>
-          <img src="https://i.pinimg.com/236x/37/db/bc/37dbbc224dd8aeeb6d5cba173d2acdd0--what-kind-of-water-filters.jpg" width=205px; height="172px">
-          <img src="https://digital.com/wp-content/uploads/recommended-tick-icon.png" id="img5"><centre>
-          <h3>
-          </li>
-    </ul>
-  </div>
-</div> -->
-  </body>
+        <div class="row">
+            <div class="container" id="container2">
+                <h3>If your ready to create your registry kindly click the button bellow to browse through our products</h3>
+                <button class="button" style="vertical-align:middle"><a id="p" href="prodcuts.html">Products Page </a></button>
+                <ul>
+                    <li>
+                        <div class="title"><strong>Item Selected</strong></div>
+                        <h3><button class="button" style="vertical-align:middle" class="button1" id="btn2"><blink><span id="p">Purchase </span></blink></button>
+                            <centre>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ-QpkUE39QRqUbDg4g7qL66YjYscVpD6khMsaOhRciXvJHPJE" width=205px; height="">
+                                <centre>
+                                    <h3>
+                    </li>
+                    <li>
+                        <div class="title"><strong>Item Selected</strong></div>
+                        <h3><button class="button" style="vertical-align:middle" class="button1" id="btn3"><blink><span id="p">Purchase </span></blink></button>
+                            <centre>
+                                <img src="https://cdn.takas.lk/media/catalog/product/cache/1/small_image/150x/9df78eab33525d08d6e5fb8d27136e95/b/e/bek_b-wmy71483lmb2-01_zoom_1.jpg" width=205px; height="172px"><img src="https://digital.com/wp-content/uploads/recommended-tick-icon.png"
+                                    id="img1">
+                                <centre>
+                                    <h3>
+                    </li>
+                    <li>
+                        <div class="title"><strong>Item Selected</strong></div>
+                        <h3><button class="button" style="vertical-align:middle" class="button1" id="btn4"><blink><span id="p">Purchase </span></blink></button>
+                            <centre>
+                                <img src="http://www.urslay.com/wp-content/uploads/2018/02/59213-3145d975f8cd59e067a313acdb06cf8b-150x150.jpg" width=205px; height="172px"><img src="https://digital.com/wp-content/uploads/recommended-tick-icon.png" id="img2">
+                                <centre>
+                                    <h3>
+                    </li>
+                    <li>
+                        <div class="title"><strong>Item Selected</strong></div>
+                        <h3><button class="button" style="vertical-align:middle" class="button1" id="btn5"><blink><span id="p">Purchase </span></blink></button>
+                            <centre>
+                                <img src="https://www.movieempire.info/wp-content/uploads/2018/04/411nLa35UrL-150x150.jpg" width=205px; height="172px"><img src="https://digital.com/wp-content/uploads/recommended-tick-icon.png" id="img3">
+                                <centre>
+                                    <h3>
+                    </li>
+                    <li>
+                        <div class="title"><strong>Item Selected</strong></div>
+                        <h3><button class="button" style="vertical-align:middle" class="button1" id="btn6"><blink><span id="p">Purchase </span></blink></button>
+                            <centre>
+                                <img src="https://beautyshophq.com/wp-content/uploads/2016/02/The-SHANY-Beauty-Cliche-Makeup-Palette-All-in-One-Makeup-Set-with-Eyeshadows-Face-Powders-and-Blushes-0-1-150x150.jpg" width=205px; height="172px"><img src="https://digital.com/wp-content/uploads/recommended-tick-icon.png"
+                                    id="img4">
+                                <centre>
+                                    <h3>
+                    </li>
+                    <li>
+                        <div class="title"><strong>Item Selected</strong></div>
+                        <h3><button class="button" style="vertical-align:middle" class="button1" id="btn7"><blink><span id="p">Purchase </span></blink></button>
+                            <centre><img src="https://i.pinimg.com/236x/37/db/bc/37dbbc224dd8aeeb6d5cba173d2acdd0--what-kind-of-water-filters.jpg" width=205px; height="172px"><img src="https://digital.com/wp-content/uploads/recommended-tick-icon.png" id="img5">
+                                <centre>
+                                    <h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</body>
+
 </html>

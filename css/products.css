@@ -1,0 +1,318 @@
+/*Nav bar*/
+
+body {
+    background-color: pink;
+}
+
+header {
+    /* width: 1400px; */
+    height: 70px;
+    /* background: url("../images/120115_lak_hol-1.jpg") no-repeat 50% 50%; */
+    background-size: 1400px;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    position: fixed;
+    float: left;
+    margin: 16px 36px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    overflow: hidden;
+    z-index: 3;
+    top: 0%;
+}
+
+nav ul {
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: rgba(0, 0, 0, 0);
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 16px;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+
+/*Responsiveness*/
+
+@media(max-width: 580px) {
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+    }
+    nav ul {
+        max-height: 10px;
+        background: #000;
+    }
+    nav.black ul {
+        background: #000;
+    }
+    .showing {
+        max-height: 20em;
+    }
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px 0;
+        text-align: center;
+    }
+    .menu-icon {
+        display: block;
+    }
+}
+
+
+/*Search*/
+
+input[type=text] {
+    width: 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+
+/*Container Styling*/
+
+.container {
+    position: relative;
+    left: 12%;
+}
+
+
+/*Product image styling*/
+
+.im2 {
+    height: 200px;
+    width: 286px;
+}
+
+.im3 {
+    height: 246px;
+    width: 286px;
+}
+
+.im4 {
+    height: 200px;
+    width: 250px;
+}
+
+.im5 {
+    height: 246px;
+    width: 286px;
+}
+
+.im6 {
+    height: 200px;
+    width: 250px;
+}
+
+
+/*FOOTER STYLING*/
+
+.footer-main {
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.footer-main {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #272727;
+    padding: 20px 0px;
+}
+
+.footer-social-icons {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-social-icons ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-social-icons ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: #FF007F;
+}
+
+.footer-social-icons ul li a {
+    color: #272727;
+    font-size: 25px;
+    display: block;
+}
+
+.footer-social-icons ul li a i {
+    line-height: 50px;
+}
+
+
+/*Social Icon hover*/
+
+.footer-social-icons ul li:hoover {
+    background: #f00;
+}
+
+.footer-social-icons ul li:hoover a {
+    color: #fff;
+}
+
+
+/*Footer Menu one*/
+
+.footer-main {
+    height: 200px;
+}
+
+.footer-menu-one {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.footer-menu-one ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-menu-one ul li {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.footer-menu-one ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+/*Menu one Items Hover*/
+
+.footer-menu-one ul li a:hover {
+    color: #32CD32;
+}
+
+
+/*Footer Menu Two*/
+
+.footer-menu-two {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.footer-menu-two ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-menu-two ul li {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.footer-menu-two ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+/*Menu two Items Hover*/
+
+.footer-menu-two ul li a:hover {
+    color: #32CD32;
+}
+
+
+/*Footer Bottom*/
+
+.footer-bottom {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    background: #FF007F;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.footer-bottom p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.footer-bottom p a {
+    color: #fff;
+}
+
+.footer-bottom p a:hover {
+    color: #272727;
+}
