@@ -1,5 +1,9 @@
 /*Nav bar*/
 
+body {
+    background-color: pink;
+}
+
 header {
     /* width: 1400px; */
     height: 70px;
@@ -92,6 +96,19 @@ nav ul li a {
     .menu-icon {
         display: block;
     }
+}
+
+
+/*Search*/
+
+input[type=text] {
+    width: 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
 }
 
 
