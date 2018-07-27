@@ -7,6 +7,15 @@
     border-bottom: 3px solid #2d3d51;
 }
 
+.logo {
+    position: fixed;
+    float: left;
+    margin: 16px 36px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .side-nav {
     position: absolute;
     width: 100%;
@@ -135,5 +144,28 @@
     }
     .main-content {
         margin-left: 200px;
+        padding: 1em;
     }
+}
+
+
+/*Main area content*/
+
+.image {
+    height: 230px;
+}
+
+.first {
+    margin-top: 60px;
+}
+
+.second {
+    margin-top: 20px;
+}
+
+.btn {
+    width: 250px;
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 425px;
 }
