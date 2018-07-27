@@ -1,47 +1,144 @@
-body{
-  background-image: url("http://www.hdwallpapersz.in/wp-content/uploads/2015/07/Gift-a-Red-Heart-Images-to-lover-hd-pics-for-mobile-whatsapp.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
+    background-image: url("http://www.hdwallpapersz.in/wp-content/uploads/2015/07/Gift-a-Red-Heart-Images-to-lover-hd-pics-for-mobile-whatsapp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-#all{
-  padding-top: 100px;
+
+#all {
+    padding-top: 100px;
 }
-.container{
-  background-color: black;
-  padding: 20px;
-  width:300px;
-  margin: 0 auto 100px;
-  opacity: 0.5;
-  box-shadow: 5px 5px 8px 10px #E0E0E0;
+
+.container {
+    background-color: black;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto 100px;
+    opacity: 0.5;
+    box-shadow: 5px 5px 8px 10px #E0E0E0;
 }
-#Pnumber{
-  padding: 5px;
+
+#Pnumber {
+    padding: 5px;
 }
-#email{
-  padding: 5px;
+
+#email {
+    padding: 5px;
 }
-#pass{
-  padding: 5px;
+
+#pass {
+    padding: 5px;
 }
-#login{
-  display: none;
+
+#login {
+    display: none;
 }
-#signin{
-  display: none;
+
+#signin {
+    display: none;
 }
-#me{
-  color: white;
-  font-size: 20px;
+
+#me {
+    color: white;
+    font-size: 20px;
 }
-#pas{
-  color: white;
-  font-size: 20px;
+
+#pas {
+    color: white;
+    font-size: 20px;
 }
-#em{
-  color: white;
-  font-size: 20px;
+
+#em {
+    color: white;
+    font-size: 20px;
 }
-#you{
-  color: white;
-  font-size: 20px;
+
+#you {
+    color: white;
+    font-size: 20px;
+}
+
+.logo {
+    position: fixed;
+    float: left;
+    margin: 16px 36px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    overflow: hidden;
+    z-index: 3;
+    top: 0%;
+}
+
+nav ul {
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: rgba(0, 0, 0, 0);
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 16px;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+
+/*Responsiveness*/
+
+@media(max-width: 580px) {
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+    }
+    nav ul {
+        max-height: 10px;
+        background: #000;
+    }
+    nav.black ul {
+        background: #000;
+    }
+    .showing {
+        max-height: 20em;
+    }
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px 0;
+        text-align: center;
+    }
+    .menu-icon {
+        display: block;
+    }
 }
